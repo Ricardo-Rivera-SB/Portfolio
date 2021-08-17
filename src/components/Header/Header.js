@@ -25,7 +25,43 @@ const Header = () => (
             marginBottom: "20px",
           }}
         >
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          {/* <DiCssdeck
+            size="3rem"
+            style={{
+              color: "#f2003c",
+            }}
+          /> */}
+          <Span
+            style={{
+              color: "#cfc33a",
+            }}
+          >
+            DS
+            <span
+              style={{
+                color: "#3399cc",
+              }}
+            >
+              G
+            </span>
+            NR
+            <span
+              style={{
+                color: "3399cc",
+              }}
+            >
+              \\
+            </span>
+            DV
+            <span
+              style={{
+                color: "#3399cc",
+              }}
+            >
+              L
+            </span>
+            PR
+          </Span>
         </a>
       </Link>
     </Div1>
@@ -47,13 +83,19 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://github.com/Glassbox-Studio" target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://linkedin.com">
+      <SocialIcons
+        href="https://www.linkedin.com/in/ricardo-rivera-0b1b1a74/"
+        target="_blank"
+      >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://instagram.com">
+      <SocialIcons
+        href="https://www.instagram.com/dsgnr_dvlpr/"
+        target="_blank"
+      >
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
