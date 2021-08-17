@@ -28,7 +28,9 @@ export const Div1 = styled.div`
   flex-direction: row;
   align-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 3;
+    grid-area: 1 / 1 / 2 / 6;
+    align-content: center;
+    justify-content: center;
   }
 `;
 export const Div2 = styled.div`
@@ -47,6 +49,7 @@ export const Div3 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
+    display: none;
   }
 `;
 
@@ -62,7 +65,7 @@ export const NavLink = styled.a`
     cursor: pointer;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.5rem;
+    padding: 1rem;
   }
 `;
 

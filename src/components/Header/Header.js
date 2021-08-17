@@ -22,7 +22,7 @@ const Header = () => (
             display: "flex",
             alignItems: "center",
             color: "white",
-            marginBottom: "20px",
+            marginBottom: "15px",
           }}
         >
           {/* <DiCssdeck

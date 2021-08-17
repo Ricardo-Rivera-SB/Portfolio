@@ -27,6 +27,10 @@ const GlobalStyles = createGlobalStyle`
   }
   a {
     text-decoration: none;
+    
+    @media ${(props) => props.theme.breakpoints.sm} {
+      margin-bottom: 15px;
+    }
   }
   li{
     list-style: none;
@@ -34,6 +38,7 @@ const GlobalStyles = createGlobalStyle`
   span {
     font-family: ${(props) => props.theme.fonts.span}
   }
+
 
 `;
 
