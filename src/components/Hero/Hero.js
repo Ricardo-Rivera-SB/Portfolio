@@ -19,7 +19,11 @@ const Hero = (props) => (
         Front-End Web Developer, <br /> Technology Specialist and <br /> Music
         Producer.
       </SectionText>
-      <Button onClick={() => (window.location = "#about")}>About Me</Button>
+      <Button
+        onClick={() => (window.location = "mailto:rrivera1215@gmail.com")}
+      >
+        Contact Me
+      </Button>
     </LeftSection>
   </Section>
 );

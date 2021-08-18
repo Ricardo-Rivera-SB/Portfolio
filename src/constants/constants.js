@@ -42,5 +42,8 @@ export const TimeLineData = [
   { year: 2020, text: "Completed 30+ projects" },
   { year: 2020, text: "Worked as a freelance Developer" },
   { year: 2021, text: "Began learning different frameworks and JS libraries" },
-  { year: 2021, text: "Began using UI/UX tools" },
+  {
+    year: 2021,
+    text: "Began working with UI/UX tools like Figma and Adobe XD",
+  },
 ];
