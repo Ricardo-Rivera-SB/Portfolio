@@ -16,9 +16,10 @@ const Hero = (props) => (
         Ricardo Rivera
       </SectionTitle>
       <SectionText>
-        Front-End Web Developer and <br /> Technology Specialist
+        Front-End Web Developer, <br /> Technology Specialist and <br /> Music
+        Producer.
       </SectionText>
-      <Button onClick={() => (window.location = "#tech")}>About Me</Button>
+      <Button onClick={() => (window.location = "#about")}>About Me</Button>
     </LeftSection>
   </Section>
 );

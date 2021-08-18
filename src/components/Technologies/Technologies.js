@@ -1,6 +1,13 @@
 import React from "react";
 import { DiFirebase, DiReact, DiZend } from "react-icons/di";
 import {
+  SiFigma,
+  SiReact,
+  SiNetlify,
+  SiAdobe,
+  SiApplemusic,
+} from "react-icons/si";
+import {
   Section,
   SectionDivider,
   SectionText,
@@ -20,11 +27,17 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I Specialize in Front-End web development technologies.
+      I Specialize in Front-End web development technologies,
+      <br /> the Adobe Creative Cloud, and Music Production/Sound Design.
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="5rem" />
+        <SiReact
+          size="5rem"
+          style={{
+            paddingBottom: "1rem",
+          }}
+        />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
@@ -33,16 +46,28 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="5rem" />
+        <SiNetlify
+          size="5rem"
+          style={{
+            paddingBottom: "1rem",
+          }}
+        />
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>
+            Static Web <br /> Hosting
+          </ListTitle>
           <ListParagraph>
-            Experience with <br /> Node.js and Databases
+            Experience with <br /> Netlify
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="5rem" />
+        <SiFigma
+          size="5rem"
+          style={{
+            paddingBottom: "1rem",
+          }}
+        />
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
@@ -50,7 +75,40 @@ const Technologies = () => (
           </ListParagraph>
         </ListContainer>
       </ListItem>
+      <ListItem>
+        <SiAdobe
+          size="5rem"
+          style={{
+            paddingBottom: "1rem",
+          }}
+        />
+        <ListContainer>
+          <ListTitle>Adobe</ListTitle>
+          <ListParagraph>
+            Experience with <br /> Photoshop, After Effects, <br />
+            Premier Pro, and XD
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <SiApplemusic
+          size="5rem"
+          style={{
+            paddingBottom: "1rem",
+          }}
+        />
+        <ListContainer>
+          <ListTitle>
+            Music Production/
+            <br /> Sound Design
+          </ListTitle>
+          <ListParagraph>
+            Experience with <br /> Ableton live and <br /> various VSTs
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
     </List>
+    <SectionDivider />
   </Section>
 );
 
