@@ -27,8 +27,8 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I Specialize in Front-End web development technologies,
-      <br /> the Adobe Creative Cloud, and Music Production/Sound Design.
+      I Specialize in Front-End web development technologies and
+      <br /> the Adobe Creative Cloud.
     </SectionText>
     <List>
       <ListItem>

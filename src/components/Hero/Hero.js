@@ -16,8 +16,8 @@ const Hero = (props) => (
         Ricardo Rivera
       </SectionTitle>
       <SectionText>
-        Front-End Web Developer, <br /> Technology Specialist and <br /> Music
-        Producer.
+        Front-End Web Developer <br />
+        and Technology Specialist <br />
       </SectionText>
       <Button
         onClick={() => (window.location = "mailto:rrivera1215@gmail.com")}

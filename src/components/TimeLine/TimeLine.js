@@ -68,10 +68,10 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         My passions have always been tied to technology. I'm a Front-End Web
-        Developer (currently learning back-end development), IT specialist, and
-        Music Producer. I'm experienced in HTML5, CSS3, JavaScript (including
-        libraries like React), and the Adobe Creative Suite (Photoshop,
-        Premiere, After Effects, etc.){" "}
+        Developer (currently learning back-end development) and IT specialist.
+        I'm experienced in HTML5, CSS3, JavaScript (including libraries like
+        React), and the Adobe Creative Suite (Photoshop, Premiere, After
+        Effects, etc.){" "}
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
