@@ -27,7 +27,7 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I Specialize in Front-End web development technologies and
+      I specialize in Front-End web development technologies and
       <br /> the Adobe Creative Cloud.
     </SectionText>
     <List>
@@ -87,23 +87,6 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br /> Photoshop, After Effects, <br />
             Premier Pro, and XD
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <SiApplemusic
-          size="5rem"
-          style={{
-            paddingBottom: "1rem",
-          }}
-        />
-        <ListContainer>
-          <ListTitle>
-            Music Production/
-            <br /> Sound Design
-          </ListTitle>
-          <ListParagraph>
-            Experience with <br /> Ableton live and <br /> various VSTs
           </ListParagraph>
         </ListContainer>
       </ListItem>

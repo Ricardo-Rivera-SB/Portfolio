@@ -34,13 +34,22 @@ const Footer = () => {
           <Slogan>DSGNR//DVLPR</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com">
+          <SocialIcons
+            href="https://github.com/Glassbox-Studio"
+            target="_blank"
+          >
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://linkedin.com">
+          <SocialIcons
+            href="https://www.linkedin.com/in/ricardo-rivera-0b1b1a74/"
+            target="_blank"
+          >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://instagram.com">
+          <SocialIcons
+            href="https://www.instagram.com/dsgnr_dvlpr/"
+            target="_blank"
+          >
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>
