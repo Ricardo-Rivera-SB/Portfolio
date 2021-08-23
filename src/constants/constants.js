@@ -39,6 +39,16 @@ export const projects = [
     visit: "https://github.com/Glassbox-Studio/IDLES-clone",
     id: 3,
   },
+  {
+    title: "Form Verification using Regual Expressions",
+    description:
+      "A simple form made with Bootstrap and validation using regular expressions",
+    image: "/images/formValidation.png",
+    tags: ["HTML5", "JavaScript", "Bootstrap"],
+    source: "https://re-form-verification.netlify.app/",
+    visit: "https://github.com/Glassbox-Studio/FormValidationRE",
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
