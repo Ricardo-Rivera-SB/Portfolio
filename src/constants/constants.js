@@ -40,7 +40,7 @@ export const projects = [
     id: 3,
   },
   {
-    title: "Form Verification using Regual Expressions",
+    title: "Form Verification using Regular Expressions",
     description:
       "A simple form made with Bootstrap and validation using regular expressions",
     image: "/images/formValidation.png",
