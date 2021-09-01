@@ -6,7 +6,10 @@ import {
   SiNetlify,
   SiAdobe,
   SiApplemusic,
+  SiWordpress,
+  SiEnvato,
 } from "react-icons/si";
+import { FaElementor } from "react-icons/fa";
 import {
   Section,
   SectionDivider,
@@ -87,6 +90,31 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br /> Photoshop, After Effects, <br />
             Premier Pro, and XD
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <SiWordpress
+          size="5rem"
+          style={{
+            paddingBottom: "1rem",
+          }}
+        />
+        <ListContainer>
+          <ListTitle>WordPress</ListTitle>
+          <ListParagraph>
+            Experience with <br /> WordPress CMS and <br />
+            theme creation
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <FaElementor size="5rem" />
+        <ListContainer>
+          <ListTitle>Elementor</ListTitle>
+          <ListParagraph>
+            Experience with <br /> Elementor drag and <br />
+            drop design, and Envato
           </ListParagraph>
         </ListContainer>
       </ListItem>
