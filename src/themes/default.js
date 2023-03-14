@@ -1,7 +1,7 @@
 export default {
   // Temp fonts
   fonts: {
-    title: "Space Grotesk, sans-serif",
+    title: "Roboto, sans-serif",
     main: "Roboto, sans-serif",
     span: "Monoton, cursive",
   },

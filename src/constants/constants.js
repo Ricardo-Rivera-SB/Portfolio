@@ -3,7 +3,7 @@ export const projects = [
     title: "New Portfolio (Work in Progress)",
     description:
       "This is a new portfolio, made completly from scratch. All designs and implemetations are all %100 original. I decide to work on the desktop version before to mobile version in order to full experiement with both the Tilt and Anime JavaScript libraries.",
-    image: "/images/firewatch.png",
+    image: "/images/portfolio2.png",
     tags: ["HTML5", "CSS3", "JavaScript", "Tilt.js", "Anime.js"],
     source: "https://newportfoliowip.netlify.app/",
     visit: "https://github.com/Ricardo-Rivera-SB/NewPortfolioWIP",
