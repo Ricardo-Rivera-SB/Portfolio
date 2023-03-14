@@ -3,7 +3,7 @@ export default {
   fonts: {
     title: "Roboto, sans-serif",
     main: "Roboto, sans-serif",
-    span: "Monoton, cursive",
+    span: "Roboto, sans-serif",
   },
   // Colors for layout
   colors: {
