@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "New Portfolio (Work in Progress)",
     description:
-      "This is a clone of the Firewatch homepage. My main goal with this project was to figure out how the parallax effect was done. I've made parallax effects before, but never anything with depth like this.",
+      "This is a new portfolio, made completly from scratch. All designs and implemetations are all %100 original. I decide to work on the desktop version before to mobile version in order to full experiement with both the Tilt and Anime JavaScript libraries.",
     image: "/images/firewatch.png",
     tags: ["HTML5", "CSS3", "JavaScript", "Tilt.js", "Anime.js"],
     source: "https://newportfoliowip.netlify.app/",
